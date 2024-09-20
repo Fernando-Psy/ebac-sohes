@@ -27,9 +27,8 @@ header nav a {
 }
 
 .section img {
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
-    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%;
 }
 
 .section-content {
@@ -86,6 +85,11 @@ footer p {
     .products {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .section img {
+        max-width: 350px;
+        height: auto;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {
@@ -95,6 +99,11 @@ footer p {
 
     .products {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section img {
+        max-width: 300px;
+        height: auto;
     }
 }
 
@@ -106,5 +115,10 @@ footer p {
 
     .section {
         flex-direction: column;
+    }
+
+    .section img {
+        max-width: 250px;
+        height: auto;
     }
 }
